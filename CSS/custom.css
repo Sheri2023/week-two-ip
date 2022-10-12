@@ -9,6 +9,12 @@ font-family: cursive;
 text-align: center;
 color: black;
 }
+header h3 {
+    padding: 15px;
+    font-weight: 700;
+    font-size:xx-large
+    }
+    
 
 
 
