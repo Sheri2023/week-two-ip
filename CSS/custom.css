@@ -1,6 +1,10 @@
 body {
-background-image: url("paper.gif");
-background-color: #cccccc
+background-image: -o-linear-gradient url(paper-gif);
+background-color: darkgrey;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: multiply;
 
 
 
