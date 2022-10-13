@@ -24,6 +24,7 @@ Click the submit button to see what my Akan name would be.
 	Bootstrap
 ## Contact information
  Email : micheni.idah@gmail.com
+ live link :https://Sheri2023.github.io/week-two-ip
   
 ## License and Copyright information.
 Copyright©2022**Idah Micheni**

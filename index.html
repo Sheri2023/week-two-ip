@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AKAN NAME GENERATOR</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link rel="stylesheet" href="css/custom.css"
-
-
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <img src="images/Ghana flag.png" alt="Ghana flag"
-    <br>
-    <h3>AKAN NAME GENERATOR</h3>
-    <div class="infor">
-        <p>The AKAN naming style is a Ghanian tradition whereby they name a child according to the day of the week they were born</p>
-        <br>This Akan name generator takes a user's birthday (year, month and date) and gender information, determines the day of the week on which they were born and derives an Akan name depending on their gender.
-        <br>Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana.
-        <br>Have fun viewing your name or day of birth from the table below:<br>
-    </p>
-</div>
-</div>
-<div class="main">
-<div class="row">
-<div class="col-md-3">
-    <br>
-    <table class="tg">
-        <tr>
-        <th class="tg-baqh">Day of the Week</th>
-        <th class="tg-0lax">Female Name</th>
-        <th class="tg-0lax">Male Name</th>
-    </tr>
-    <tr>
-    <td class="tg-0lax">SUNDAY</td>
-    <td class="tg-0lax">Akosua</td>
-    <td class="tg-0lax">Kwasi</td>
-    </tr>
-    <tr>
-    <td class="tg-0lax">MONDAY</td>
-    <td class="tg-0lax">Adwoa</td>
-    <td class="tg-0lax">Kudwo</td>
-    </tr>
-    <tr>
-    <td class="tg-0lax">TUESDAY</td>
-    <td class="tg-0lax">Abenaa</td>
-    <td class="tg-0lax">Kwabena</td>
-    </tr>
-    <tr>
-    <td class="tg-0lax">WEDNESDAY</td>
-    <td class="tg-0lax">Akua</td>
-    <td class="tg-0lax">Kwaku</td>
-    </tr>
-    <tr>
-    <td class="tg-0lax">THURSDAY</td>
-    <td class="tg-0lax">Yaa</td>
-    <td class="tg-0lax">Yaw</td>
-</tr>
-<tr>
-<td class="tg-0lax">FRIDAY</td>
-<td class="tg-0lax">Afua</td>
-<td class="tg-0lax">Kofi</td>
-</tr>
-<tr>
-<td class="tg-0lax">SATURDAY</td>
-<td class="tg-0lax">Ama</td>
-<td class="tg-0lax">Kwame</td>
-</tr>
-</table>
-</div>
-<div class="col-md-8">
- <form name="myform" class="forms" onsubmit="validate">  
-<form id="form" name="form" on submit="find Day ()">
-    <legend>Fill in to generate your Akan name:
-        <hr>
-        </legend>
-    <label for="year ">Year of birth</label>
-        <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1989">
-    <label for="month ">Month</label>
-        <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, April=4">
-    <label for="date ">Date</label>
-        <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
-    <p>Select your gender: <br></p>
-    <div class="radio">
-    <label>
-    <input type="radio" name="gender" value="Female" checked>
-    Female
-    <label>
-    <input type="radio" name="gender" value="Female" checked>
-    Male
-   </label>
-   </div>
-    <input type="submit" value="Submit">
-</form>
-            
-
-<script src="js/akan.js"></script>  
-</body>
+      <div class="header">
+        <img src="images/Ghana flag.png" alt="Ghana flag" <br>
+        <h3>AKAN NAME GENERATOR</h3>
+        <div class="infor">
+          <p>The AKAN naming style is a Ghanian tradition whereby they name a child according to the day of the week they were born</p>
+          <br>This Akan name generator takes a user's birthday (year, month and date) and gender information, determines the day of the week on which they were born and derives an Akan name depending on their gender. <br>Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana. <br>Have fun viewing your name or day of birth from the table below: <br>
+          </p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="row">
+          <div class="col-md-3">
+            <br>
+            <table class="tg">
+              <tr>
+                <th class="tg-baqh">Day of the Week</th>
+                <th class="tg-0lax">Female Name</th>
+                <th class="tg-0lax">Male Name</th>
+              </tr>
+              <tr>
+                <td class="tg-0lax">SUNDAY</td>
+                <td class="tg-0lax">Akosua</td>
+                <td class="tg-0lax">Kwasi</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">MONDAY</td>
+                <td class="tg-0lax">Adwoa</td>
+                <td class="tg-0lax">Kudwo</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">TUESDAY</td>
+                <td class="tg-0lax">Abenaa</td>
+                <td class="tg-0lax">Kwabena</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">WEDNESDAY</td>
+                <td class="tg-0lax">Akua</td>
+                <td class="tg-0lax">Kwaku</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">THURSDAY</td>
+                <td class="tg-0lax">Yaa</td>
+                <td class="tg-0lax">Yaw</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">FRIDAY</td>
+                <td class="tg-0lax">Afua</td>
+                <td class="tg-0lax">Kofi</td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">SATURDAY</td>
+                <td class="tg-0lax">Ama</td>
+                <td class="tg-0lax">Kwame</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+          <div class="col-md-8">
+              <form id="form" name="form">
+                <legend>Fill in to generate your Akan name:
+                  <hr>
+                </legend>
+                <label for="year ">Year of birth</label>
+                <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1989">
+                <label for="month ">Month</label>
+                <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, April=4">
+                <label for="date ">Date</label>
+                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
+                <p>Select your gender: <br>
+                </p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="gender" value="Female" checked> Female <label>
+                      <input type="radio" name="gender" value="Male" checked> Male </label>
+                </div>
+                <input type="submit" value="Submit">
+              </form>
+          </div>
+          <script src="js/akan.js"></script>
+          </div>
+          </div>
+  </body>
 </html>
